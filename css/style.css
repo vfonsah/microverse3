@@ -1,0 +1,23 @@
+@media only screen and (max-width: 820px) {
+  #navbar {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background: red;
+    border-left: 1px solid;
+    width: 300px;
+  }
+}
+
+#navbar {
+  display: none;
+}
+
+@media screen {
+  body {
+    margin: 0;
+  }
+}
